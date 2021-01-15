@@ -98,6 +98,7 @@ const sources = [
 ];
 
 function populate() {
+    document.body.focus();
     const linkContainers = document.getElementsByClassName("links-container");
     for(let i = 0; i < linkContainers.length; i++) {
         const element = linkContainers.item(i);
