@@ -98,7 +98,7 @@ const sources = [
 ];
 
 function populate() {
-    document.body.focus();
+    window.focus();
     const linkContainers = document.getElementsByClassName("links-container");
     for(let i = 0; i < linkContainers.length; i++) {
         const element = linkContainers.item(i);
@@ -106,7 +106,6 @@ function populate() {
         const title = element.firstElementChild;
         title.innerText = sources[i].title;
         const links = element.lastElementChild.firstElementChild;
-        //const newItem = document.createElement('li');
         const linksArray = sources[i].links;
         for(let j = 0; j < linksArray.length; j++) {
             const newItem = createLink( linksArray[j].title, 
