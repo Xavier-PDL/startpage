@@ -31,6 +31,17 @@ a:visited {
     font-size: 28px;
 }
 
+#search {
+    width: 40%;
+    position:absolute;
+    left: 30%;
+    background-color:#555;
+    color: #eee;
+    height: 2em;
+    border-color: #333;
+    border-radius: 5px;
+}
+
 .links-section {
     background-color: #222;
     padding: 10px;
