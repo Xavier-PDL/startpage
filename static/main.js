@@ -25,7 +25,7 @@ const sources = [
         links: [
             {
                 title: "whatsapp", 
-                href: "https://www.youtube.com/"
+                href: "https://web.whatsapp.com/"
             },
             {
                 title: "r/piracy", 
