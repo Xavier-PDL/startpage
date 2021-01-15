@@ -1,7 +1,7 @@
 # Startpage
 
 Obviously drawing inspiration from 
-[https://www.reddit.com/r/startpages/](r/startpages). Simple startpage but it's
+[r/startpages](https://xavier-pdl.github.io/startpage/). Simple startpage but it's
 my startpage.
 
 There are a few things that I'd like to add/change...
