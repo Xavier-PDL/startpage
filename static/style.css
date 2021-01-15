@@ -1,0 +1,62 @@
+
+@font-face {
+    font-family: "roboto";
+    src:url("fonts/RobotoMono-Regular-NerdFont-Complete.ttf");
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "roboto";
+    color: #ddd;
+    background-color: #333;
+}
+
+a,
+a:visited {
+    color: #999;
+}
+
+.main-section {
+    width: 60%;
+    margin: auto;
+}
+
+.header-section {
+    height: 100px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.links-section {
+    background-color: #222;
+    padding: 10px;
+    border: thin #fff solid;
+    border-radius: 25px;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.links-col {
+    padding: 5px 5px;
+    margin: 0px 25px;
+}
+
+.links-container {
+}
+
+.links-title {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
