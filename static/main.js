@@ -128,3 +128,9 @@ function createLink(linkText, linkHref) {
     listItem.innerHTML = '<a href="' + linkHref + '">' + linkText + '</a>';
     return listItem;
 }
+
+function processKey(event) {
+    let key = (event.event == event.keypress) ? event.key : 0;
+    if(String(key) == 's' || String(key) == 'S')
+        document.getElementById("search").focus();
+}
