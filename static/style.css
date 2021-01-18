@@ -11,7 +11,9 @@ html {
 body {
     font-family: "roboto";
     color: #ddd;
-    background-color: #333;
+    /*background-color: #333;*/
+    background-size: cover;
+    background-image: url("/static/imgs/wallpaper-gate.png");
 }
 
 a,
@@ -35,17 +37,17 @@ a:visited {
     width: 40%;
     position:absolute;
     left: 30%;
-    background-color:#555;
+    background-color:rgba(10,10,10,0.8);
     color: #eee;
     height: 2em;
-    border-color: #333;
+    border-color: #888;
     border-radius: 5px;
 }
 
 .links-section {
-    background-color: #222;
+    background-color: rgba(10,10,10,0.8);
     padding: 10px;
-    border: thin #fff solid;
+    border: medium #fff solid;
     border-radius: 25px;
     display: inline-grid;
     grid-template-columns: auto auto auto auto;
@@ -62,6 +64,7 @@ a:visited {
 }
 
 .links-container {
+    opacity: 1.0;
 }
 
 .links-title {
