@@ -86,6 +86,10 @@ const sources = [
                 href: "https://github.com/Xavier-PDL"
             },
             {
+                title: "leetcode", 
+                href: "https://leetcode.com/"
+            },
+            {
                 title: "nerdfonts",
                 href: "https://www.nerdfonts.com/cheat-sheet"
             },
