@@ -7,6 +7,10 @@ const sources = [
                 href: "https://www.gmail.com"
             },
             {
+                title: "calendar", 
+                href: "https://www.calendar.google.com"
+            },
+            {
                 title: "youtube", 
                 href: "https://www.youtube.com/"
             },
