@@ -8,7 +8,7 @@ const sources = [
             },
             {
                 title: "calendar", 
-                href: "https://www.calendar.google.com"
+                href: "https://calendar.google.com"
             },
             {
                 title: "youtube", 
