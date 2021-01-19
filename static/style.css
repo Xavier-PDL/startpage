@@ -13,7 +13,7 @@ body {
     color: #ddd;
     /*background-color: #333;*/
     background-size: cover;
-    background-image: url("/static/imgs/wallpaper-gate.png");
+    background-image: url("imgs/wallpaper-gate.png");
 }
 
 a,
