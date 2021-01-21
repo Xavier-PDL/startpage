@@ -32,8 +32,8 @@ const sources = [
                 href: "https://web.whatsapp.com/"
             },
             {
-                title: "r/piracy", 
-                href: "https://www.reddit.com/r/Piracy"
+                title: "discord", 
+                href: "https://discord.com/app"
             },
             {
                 title: "r/vimporn", 
