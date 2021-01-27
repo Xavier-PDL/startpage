@@ -50,21 +50,26 @@ a:visited {
     border: medium #CCC solid;
     border-radius: 25px;
     display: inline-grid;
-    grid-template-columns: auto auto auto auto;
     width: 60%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.grid-layout {
+    grid-template-columns: 25% 25% 25% 25%;
+}
 
 .links-col {
     padding: 5px 5px;
-    margin: 0px 25px;
+    /*margin: 0px 20px;*/
 }
 
 .links-container {
     opacity: 1.0;
+}
+
+.links-content {
 }
 
 .links-title {
@@ -74,3 +79,109 @@ a:visited {
 li {
     list-style: none;
 }
+
+@media only screen and (max-width: 1300px) {
+    .grid-layout {
+        grid-template-columns: 50% 50%;
+        width: 75%;
+        transform: translate(-50%, -35%);
+    }
+
+    .links-container {
+        opacity: 1.0;
+        width: 75%;
+        margin: auto;
+    }
+
+    .links-content {
+        width: 60%;
+        margin: auto;
+    }
+
+    #search {
+        width: 70%;
+        left: 15%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .grid-layout {
+    }
+
+    .links-content {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .grid-layout {
+        grid-template-columns: 50% 50%;
+        width: 75%;
+        transform: translate(-50%, -35%);
+    }
+
+    .links-container {
+        opacity: 1.0;
+        width: 90%;
+        margin: auto;
+    }
+
+    .links-content {
+        width: 85%;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .links-section {
+        display: inline;
+    }
+
+    .grid-layout {
+        grid-template-columns: 75%;
+        transform: translate(-50%, -25%);
+    }
+    
+    .links-container {
+        opacity: 1.0;
+        width: 70%;
+        margin-left: auto;
+    }
+
+    .links-content {
+        width:50%;
+        margin:auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .links-section {
+        display: inline;
+    }
+
+    .grid-layout {
+        grid-template-columns: 75%;
+        transform: translate(-50%, -25%);
+    }
+    
+    .links-container {
+        opacity: 1.0;
+        width: 70%;
+        margin-left: auto;
+    }
+
+    .links-content {
+        width:85%;
+        margin:auto;
+    }
+    
+    #search {
+        width: 75%;
+        left: 12%;
+    }
+
+}
+
+
