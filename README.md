@@ -7,8 +7,7 @@ my startpage.
 There are a few things that I'd like to add/change...
 
 - Fixes:
-    - Columns are slightly closer to the left of the links section than the
-      right.
+    - Create multiple versions of background image so it doesn't tile.
 
 
 - Add some dynamic element/s. Possible ideas:
