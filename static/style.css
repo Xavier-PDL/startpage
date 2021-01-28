@@ -34,9 +34,9 @@ a:visited {
 }
 
 #search {
-    width: 40%;
+    width: 50%;
     position:absolute;
-    left: 30%;
+    left: 25%;
     background-color:rgba(10,10,10,0.8);
     color: #eee;
     height: 2em;
@@ -58,11 +58,12 @@ a:visited {
 }
 .grid-layout {
     grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 0;
 }
 
 .links-col {
     width: 90%;
-    padding: 5px 5px;
+    padding: 5px 10px;
     /*margin: 0px 20px;*/
 }
 
@@ -71,6 +72,12 @@ a:visited {
 }
 
 .links-content {
+    text-align: center;
+}
+
+.links-list {
+    padding: 0;
+    margin: 0;
 }
 
 .links-title {
@@ -81,7 +88,7 @@ li {
     list-style: none;
 }
 
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 1100px) {
     .grid-layout {
         grid-template-columns: 50% 50%;
         width: 75%;
@@ -107,6 +114,13 @@ li {
 
 @media only screen and (max-width: 1000px) {
     .grid-layout {
+        width: 70%;
+    }
+
+    .links-col {
+        width: 90%;
+        padding: 5px 15px;
+        /*margin: 0px 20px;*/
     }
 
     .links-content {
@@ -120,6 +134,12 @@ li {
         grid-template-columns: 50% 50%;
         width: 75%;
         transform: translate(-50%, -35%);
+    }
+
+    .links-col {
+        width: 90%;
+        padding: 5px 15px;
+        /*margin: 0px 20px;*/
     }
 
     .links-container {
