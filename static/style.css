@@ -1,8 +1,8 @@
-
 @font-face {
     font-family: "roboto";
     src:url("fonts/RobotoMono-Regular-NerdFont-Complete.ttf");
 }
+
 html {
     margin: 0;
     padding: 0;
@@ -61,6 +61,7 @@ a:visited {
 }
 
 .links-col {
+    width: 90%;
     padding: 5px 5px;
     /*margin: 0px 20px;*/
 }
@@ -80,7 +81,7 @@ li {
     list-style: none;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1350px) {
     .grid-layout {
         grid-template-columns: 50% 50%;
         width: 75%;
